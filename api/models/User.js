@@ -1,12 +1,13 @@
 var User = {
   // Enforce model schema in the case of schemaless databases
-  attributes: {
+  /*attributes: {
    username  : { type: 'string', unique: true },
    email     : { type: 'string',  unique: true },
    passports : { collection: 'Passport', via: 'user' }
-   }
+   }*/
 
-  /*tableName: 'users',
+//attributes added according to mysql Users table
+  tableName: 'users',
   connection:'TestDB',
   autoCreatedAt:false,
   autoUpdatedAt:false,
@@ -30,7 +31,7 @@ var User = {
       delete obj.password;
       return obj;
     }
-  }*/
+  }
 };
 
 module.exports = User;
