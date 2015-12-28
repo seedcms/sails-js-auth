@@ -7,11 +7,11 @@ var User = {
    }*/
 
 //attributes added according to mysql Users table
-  tableName: 'users',
+  /*tableName: 'users',
   connection:'TestDB',
   autoCreatedAt:false,
   autoUpdatedAt:false,
-  schema: true,
+  schema: true, */
 
   attributes: {
     loginid:{
@@ -35,4 +35,3 @@ var User = {
 };
 
 module.exports = User;
-
