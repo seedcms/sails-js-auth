@@ -1,3 +1,2 @@
-# Passport
-
-a [Sails](http://sailsjs.org) application
+# sails-js-auth
+Testing Sails JS
